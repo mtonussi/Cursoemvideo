@@ -1,5 +1,3 @@
-import calendar
-
 x = int(input('Digite um número inteiro: '))
 x1 = x*1
 x2 = x*2
