@@ -1,0 +1,5 @@
+km = float(input('Qual a kilometragem percorrida pelo carro alugado? '))
+dia = int(input('Qual a quantidade de dias que o carro ficou alugado? '))
+val = (km * 0.15) + (dia * 60)
+print('O valor é de R${:.2f}, de acordo com a kilometragem percorrida e os dias alugados'.format(val))
+print('Valor para quitação: R${:.2f}'.format(val))
